@@ -7,11 +7,21 @@
 
 
 def fibo(n):
-    if (n == 0 || n == 1):
-        return n;
-    else:
-        for (int i = 0; i < n; i++):
-            
+	if n == 0 or n == 1:
+		return n
+	else:
+        for i in range(n):
+			n = i + n
+		return n
+     
             
 #TODO
 # Recursive Algorithm for later. 
+
+def main(): 
+	while True:
+		print (fibo(int(input('Which fibonacci number do you want: '))))
+		
+
+if __name__ == '__main__':
+	main()

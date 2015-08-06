@@ -1,6 +1,14 @@
 cached_fibo
 ===========
 
+Step 1: 
+===========
+Determine the nth Fibonacci number using both iterative and recurvise techniques.
+
+Step 2: 
+===========
+
+
 Determine nth Fibonacci number using memoization technique
 
 
