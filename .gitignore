@@ -1,5 +1,8 @@
-
-# Pycharm
+# Pycharm/Idea
+/.idea
+.idea/workspace.xml
+/.idea/workspace.xml
+**/.idea/workspace.xml
 .project
 
 
