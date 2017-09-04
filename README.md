@@ -8,11 +8,9 @@ Determine the nth Fibonacci number using both iterative and recurvise techniques
 Step 2: 
 ===========
 
-
 Determine nth Fibonacci number using memoization technique
 
-
-Program uses Memoization to determine even higher fibonacci numbers. 
+Program uses Memoization to determine even higher fibonacci numbers.
     
 For higher fibo numbers, take adv of memoization instead of searching them directly
     Ex: Finding 1000th fibo number directly will cause recursion depth problem 
