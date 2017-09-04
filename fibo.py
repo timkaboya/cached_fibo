@@ -5,22 +5,24 @@
     This program does not utilize any memory optimization techniques and serves to demonstrate memoization in tandem with the other program
 """
 
-
-def fibo(n):
+# Recursive Fibo
+def fibo_r(n):
     assert n > -1
 
     if n == 0 or n == 1:
         return n
     else:
-        return fibo(n-1) + fibo(n-2)
+        return fibo_r(n-1) + fibo_r(n-2)
 
-
-#TODO
-# Recursive Algorithm for later. 
-
+# Iterative Fibo
+def fibo_i(n):
+    a, b = 0, 1
+    for i in range(n):
+        a, b = b, a + b
+    return b
 def main(): 
     while True:
-        print (fibo(int(input('Which fibonacci number do you want: '))))
+        print (fibo_i(int(input('Which fibonacci number do you want: '))))
 
 
 if __name__ == '__main__':
